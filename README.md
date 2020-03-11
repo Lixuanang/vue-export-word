@@ -171,6 +171,7 @@ cnpm install file-saver --save
 
 (vue)中定义：
 ```javascript
+   // 对象
    price: [
         {
           receivable: "11760.00",
@@ -191,6 +192,7 @@ cnpm install file-saver --save
           loss: "200"
         }
       ],
+      // 数组
       tableData: [
         {
           number: "T20200228194223190100067DC9",
@@ -207,7 +209,7 @@ cnpm install file-saver --save
       ]
     };
 ```
-还有一些其它的复杂标签，比输支持条件判断，支持段落等等，笔者就不在这里一一赘述了。详情参考[官网文档](https://docxtemplater.readthedocs.io/en/latest/)
+还有一些其它的复杂标签，比输支持条件判断，支持段落等等。详情参考[官网文档](https://docxtemplater.readthedocs.io/en/latest/)
 
 # 实现
 > 具体实现见`export-word.vue`文件
